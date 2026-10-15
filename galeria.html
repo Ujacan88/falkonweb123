@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Galéria | Falcons Stará Ľubovňa</title>
+    <meta name="description" content="Fotogaléria florbalového klubu Falcons Stará Ľubovňa. (Stránka sa pripravuje)" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="falconslogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<a class="skip" href="#main">Preskočiť na obsah</a>
+
+<header class="header" id="top">
+    <div class="wrap header__inner">
+        <nav class="nav" aria-label="Hlavná navigácia">
+            <button class="burger" type="button" aria-expanded="false" aria-controls="navList">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span class="sr">Menu</span>
+            </button>
+
+            <a class="logo logo--center" href="index.html" aria-label="Falcons Stará Ľubovňa – domov">
+                <img class="logo__img" src="falconslogo.png" alt="Logo Falcons Stará Ľubovňa" width="72" height="72">
+            </a>
+
+            <ul class="navlist" id="navList" role="list">
+                <li class="navlist__group navlist__group--left">
+                    <ul class="navlist__inner" role="list">
+                        <li><a class="navlist__a" href="index.html">Domov</a></li>
+                        <li class="navlist__item--has-menu">
+                    <button class="navlist__trigger" type="button" aria-expanded="false" aria-haspopup="true">
+                        O klube <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="dropdown" role="menu">
+                        <a class="dropdown__link" href="klub.html" role="menuitem">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                            <span>História<span class="dropdown__sub">Ako sme začínali</span></span>
+                        </a>
+                        <a class="dropdown__link" href="uspechy.html" role="menuitem">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <span>Úspechy<span class="dropdown__sub">Naše míľniky a ocenenia</span></span>
+                        </a>
+                    </div>
+                </li>
+                        <li><a class="navlist__a" href="clanky.html">Články</a></li>
+                        <li class="navlist__item--has-menu navlist__item--wide">
+                    <button class="navlist__trigger" type="button" aria-expanded="false" aria-haspopup="true">
+                        Falconi <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="dropdown" role="menu">
+                        <a class="dropdown__link" href="kat-juniori.html" role="menuitem">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                            <span>Juniori<span class="dropdown__sub">U19</span></span>
+                        </a>
+                        <a class="dropdown__link" href="kat-dorastenci.html" role="menuitem">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                            <span>Dorastenci<span class="dropdown__sub">U17</span></span>
+                        </a>
+                        <a class="dropdown__link" href="kat-starsi-ziaci.html" role="menuitem">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                            <span>Starší žiaci<span class="dropdown__sub">U15</span></span>
+                        </a>
+                        <a class="dropdown__link" href="kat-mladsi-ziaci.html" role="menuitem">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                            <span>Mladší žiaci<span class="dropdown__sub">U13</span></span>
+                        </a>
+                        <a class="dropdown__link" href="kat-pripravka.html" role="menuitem">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                            <span>Prípravka<span class="dropdown__sub">U11 & U9</span></span>
+                        </a>
+                    </div>
+                </li>
+                        <li class="navlist__item--has-menu">
+                    <button class="navlist__trigger" type="button" aria-expanded="false" aria-haspopup="true">
+                        Muži <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="dropdown" role="menu">
+                        <a class="dropdown__link" href="program-m1.html" role="menuitem">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                            <span>Program M1<span class="dropdown__sub">Rozpis a výsledky</span></span>
+                        </a>
+                        <a class="dropdown__link" href="muzi.html" role="menuitem">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M15 8h3M15 12h3M7 16h10"/></svg>
+                            <span>Káder<span class="dropdown__sub">Súpiska A-tímu</span></span>
+                        </a>
+                    </div>
+                </li>
+                    </ul>
+                </li>
+
+                <li class="navlist__spacer" aria-hidden="true"></li>
+
+                <li class="navlist__group navlist__group--right">
+                    <ul class="navlist__inner" role="list">
+                        <li><a class="navlist__a is-active" href="galeria.html" aria-current="page">Galéria</a></li>
+                        <li><a class="navlist__a" href="stan-sa-falconom.html">Staň sa Falconom</a></li>
+                        <li class="navlist__item--has-menu">
+                    <button class="navlist__trigger" type="button" aria-expanded="false" aria-haspopup="true">
+                        Podpora <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="dropdown" role="menu">
+                        <a class="dropdown__link" href="podpora.html#partneri" role="menuitem">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            <span>Partneri<span class="dropdown__sub">Kto nás podporuje</span></span>
+                        </a>
+                        <a class="dropdown__link" href="podpora.html#dve-percenta" role="menuitem">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="19" y1="5" x2="5" y2="19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg>
+                            <span>2% z dane<span class="dropdown__sub">Ako nám darovať</span></span>
+                        </a>
+                    </div>
+                </li>
+                        <li><a class="navlist__a" href="kontakt.html">Kontakt</a></li>
+                        <li class="nav-social" aria-label="Sociálne siete">
+                            <a class="nav-social__link" href="https://www.instagram.com/falcons_sl/" target="_blank" rel="noopener" aria-label="Instagram">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                            </a>
+                            <a class="nav-social__link" href="https://www.facebook.com/FlorbalovyklubStaraLubovna" target="_blank" rel="noopener" aria-label="Facebook">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>
+                            </a>
+                        </li>
+                        <li><a class="nav-shop" href="https://fanshop.falcons.sk" target="_blank" rel="noopener">Fan Shop <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10"/></svg></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="main">
+
+    <section class="section" style="min-height: 65vh; display: flex; align-items: center; justify-content: center; text-align: center;">
+        <div class="wrap" data-aos>
+
+            <svg width="64" height="64" fill="none" stroke="var(--red-bright)" stroke-width="1.5" viewBox="0 0 24 24" style="margin-bottom: 24px; opacity: 0.9;">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                <polyline points="21 15 16 10 5 21"></polyline>
+            </svg>
+
+            <h1 class="h2" style="margin-bottom: 16px;">Galériu pre vás pripravujeme</h1>
+
+            <p style="color: var(--text-dim); font-size: 18px; max-width: 500px; margin: 0 auto; line-height: 1.6;">
+                Na tejto sekcii momentálne usilovne pracujeme. Už čoskoro tu nájdete tie najlepšie momentky, fotky zo zápasov, turnajov a klubového života.
+            </p>
+
+            <div style="margin-top: 40px;">
+                <a href="index.html" class="btn btn--primary">Späť na domovskú stránku</a>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="wrap footer__top">
+        <div class="footer__col footer__brand">
+            <a class="logo logo--footer" href="index.html" aria-label="Falcons domov">
+                <img class="logo__img" src="falconslogo.png" alt="Logo Falcons" width="40" height="40">
+                <span class="logo__wordmark">
+          <span class="logo__name">FALCONS</span>
+          <span class="logo__city">Stará Ľubovňa</span>
+        </span>
+            </a>
+            <p class="footer__desc">Sme hrdý florbalový klub zo Starej Ľubovne. Spájame vášeň k športu, komunitu a výchovu nových talentov na severe Slovenska.</p>
+        </div>
+        <div class="footer__col">
+            <p class="footer__heading">Rýchle odkazy</p>
+            <nav class="footer__nav-list" aria-label="Footer navigácia">
+                <a href="klub.html">O klube</a>
+                <a href="uspechy.html">Úspechy</a>
+                <a href="muzi.html">Káder (Muži)</a>
+                <a href="mladez.html">Mládež</a>
+                <a href="program-m1.html">Program M1</a>
+                <a href="clanky.html">Novinky a články</a>
+                <a href="stan-sa-falconom.html">Staň sa Falconom</a>
+                <a href="podpora.html">Podpora &amp; 2%</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+        </div>
+        <div class="footer__col footer__contact">
+            <p class="footer__heading">Kontaktujte nás</p>
+            <ul class="contact-list">
+                <li><strong>Adresa:</strong>Garbiarska 21, 06401 Stará Ľubovňa</li>
+                <li><strong>Hala:</strong>Športová hala tehelná, Stará Ľubovňa</li>
+                <li><strong>Tel:</strong> <a href="tel:+421911279782">+421 911 279 782</a></li>
+                <li><strong>E-mail:</strong> <a href="mailto:kontakt@falcons.sk">Fbcstaralubovna@gmail.com</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrap footer__bottom">
+        <p class="footer__copy">© <span id="yr"></span> Falcons Stará Ľubovňa. Všetky práva vyhradené.</p>
+        <a class="footer__top-link" href="#top" aria-label="Späť na začiatok">↑ Späť hore</a>
+    </div>
+</footer>
+
+<script>
+    // UI Interakcie (Burger menu)
+    const burger = document.querySelector('.burger');
+    const navList = document.querySelector('.navlist');
+    burger?.addEventListener('click', () => {
+        const open = burger.getAttribute('aria-expanded') === 'true';
+        burger.setAttribute('aria-expanded', String(!open));
+        navList.classList.toggle('is-open');
+        burger.classList.toggle('is-open');
+    });
+
+    // Rok do pätičky
+    const yr = document.querySelector('#yr');
+    if (yr) yr.textContent = new Date().getFullYear();
+
+    // Animácia hlavičky
+    const header = document.querySelector('.header');
+    window.addEventListener('scroll', () => {
+        header.classList.toggle('is-scrolled', window.scrollY > 24);
+    }, { passive: true });
+
+    // Intersection Observer - Animácie pri scrollovaní
+    const aosCb = (entries) => {
+        entries.forEach(e => {
+            if (e.isIntersecting) {
+                e.target.classList.add('is-visible');
+                observer.unobserve(e.target);
+            }
+        });
+    };
+    const observer = new IntersectionObserver(aosCb, { threshold: 0.12 });
+    document.querySelectorAll('[data-aos]').forEach(el => observer.observe(el));
+
+    // ---- Dropdowny (Falconi, Podpora): hover-intent so oneskorením + klik + klávesnica ----
+    (function () {
+        const items = document.querySelectorAll('.navlist__item--has-menu');
+        const isMobile = () => window.matchMedia('(max-width: 1200px)').matches;
+        let closeTimer = null, openTimer = null;
+
+        function open(item) {
+            clearTimeout(closeTimer);
+            items.forEach(i => { if (i !== item) close(i); });
+            item.classList.add('is-open');
+            item.querySelector('.navlist__trigger')?.setAttribute('aria-expanded', 'true');
+        }
+        function close(item) {
+            item.classList.remove('is-open');
+            item.querySelector('.navlist__trigger')?.setAttribute('aria-expanded', 'false');
+        }
+        function scheduleClose(item) {
+            clearTimeout(closeTimer);
+            closeTimer = setTimeout(() => close(item), 260);
+        }
+
+        items.forEach(item => {
+            const trigger = item.querySelector('.navlist__trigger');
+
+            // Klik na trigger:
+            //  - Mobil: prepína podzoznam (rozbalí/zbalí).
+            //  - Desktop: prejde na hlavnú stránku sekcie (prvý odkaz v menu).
+            trigger?.addEventListener('click', (e) => {
+                e.preventDefault();
+                if (isMobile()) {
+                    if (item.classList.contains('is-open')) close(item);
+                    else open(item);
+                } else {
+                    const first = item.querySelector('.dropdown__link');
+                    if (first) window.location.href = first.getAttribute('href');
+                }
+            });
+
+            // Hover-intent (len desktop): otvor s malým oneskorením proti "prebehnutiu",
+            // zatvor tiež s oneskorením, aby sa dalo plynulo prejsť do menu.
+            item.addEventListener('mouseenter', () => {
+                if (!isMobile()) { clearTimeout(closeTimer); openTimer = setTimeout(() => open(item), 60); }
+            });
+            item.addEventListener('mouseleave', () => {
+                if (!isMobile()) { clearTimeout(openTimer); scheduleClose(item); }
+            });
+
+            // Klávesnica
+            trigger?.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') { close(item); trigger.focus(); }
+                if ((e.key === 'ArrowDown' || e.key === 'Enter' || e.key === ' ') && !isMobile()) {
+                    e.preventDefault(); open(item);
+                    item.querySelector('.dropdown__link')?.focus();
+                }
+            });
+            item.querySelectorAll('.dropdown__link').forEach(lnk => {
+                lnk.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape') { close(item); trigger?.focus(); }
+                });
+            });
+        });
+
+        // Klik mimo => zavri všetko
+        document.addEventListener('click', (e) => {
+            items.forEach(item => { if (!item.contains(e.target)) close(item); });
+        });
+        // Zavri pri opustení hlavičky myšou
+        document.querySelector('.nav')?.addEventListener('mouseleave', () => {
+            if (!isMobile()) items.forEach(item => scheduleClose(item));
+        });
+    })();
+
+</script>
+</body>
+</html>
